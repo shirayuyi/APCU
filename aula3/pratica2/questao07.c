@@ -19,7 +19,7 @@ int main() {
   float valor_salario_liquido = valor_salario_bruto - valor_imposto_renda - valor_imposto_inss;
 
   printf("------------------------------------\n");
-  printf("    C O N T R A C H E Q U E   \n");
+  printf("    C O N T R A C H E Q U E    \n");
   printf("------------------------------------\n");
   printf("Salario Bruto...: \x1b[34m%14.2f\x1b[0m\n", valor_salario_bruto);
   printf("Imposto Renda...: \x1b[31m%14.2f\x1b[0m\n", valor_imposto_renda);
